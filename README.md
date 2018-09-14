@@ -11,7 +11,7 @@ Below see samples conditioned on held-out validation set images from the (stocha
 ## Setup package in virtual environment
 
 ```
-git clone https://phabricator.mitk.org/source/skohl/browse/master/prob_unet .
+git clone https://github.com/SimonKohl/probabilistic_unet.git .
 cd prob_unet/
 virtualenv -p python3 venv
 source venv/bin/activate
