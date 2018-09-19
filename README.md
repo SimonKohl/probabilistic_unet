@@ -103,4 +103,4 @@ Please cite the original publication:
 ```
 
 ## License
-The code is publihed under the [Apache License Version 2.0](LICENSE).
+The code is published under the [Apache License Version 2.0](LICENSE).

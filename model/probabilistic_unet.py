@@ -30,8 +30,8 @@ def down_block(features,
                regularizers=None,
                nonlinearity=tf.nn.relu,
                down_sample_input=True,
-               down_sampling_op=lambda x, size: tf.image.resize_images(x, size,
-                                                method=tf.image.ResizeMethod.BILINEAR, align_corners=True),
+               down_sampling_op=lambda x, df: tf.nn.avg_pool(x, ksize=[1,1,2,2], strides=[1,1,2,2],
+                                                padding='SAME', data_format=df),
                data_format='NCHW',
                name='down_block'):
     """A block made up of a down-sampling step followed by several convolutional layers."""
