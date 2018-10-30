@@ -420,7 +420,7 @@ class ProbUNet(snt.AbstractModule):
         :return: 4D logits tensor
         """
         if use_posterior_mean:
-            z_q = self._q._mu
+            z_q = self._q.loc
         else:
             if z_q is None:
                 z_q = self._q.sample()
