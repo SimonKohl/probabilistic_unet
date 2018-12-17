@@ -1,6 +1,8 @@
 # Probabilistic U-Net
 
-Re-implementation of the model described in `A Probabilistic U-Net for Segmentation of Ambiguous Images' ([arxiv.org/abs/1806.05034](https://arxiv.org/abs/1806.05034)).
+Re-implementation of the model described in `A Probabilistic U-Net for Segmentation of Ambiguous Images' ([NeurIPS 2018 poster](https://arxiv.org/abs/1806.05034)).
+
+This was also a spotlight presentation at NeurIPS and short video on the paper of similar content can be found [here](https://youtu.be/-cfFxQWfFrA) (4min).
 
 The architecture of the Probabilistic U-Net is depicted below: subfigure a) shows sampling and b) the training setup: 
 ![](assets/architecture.png)
