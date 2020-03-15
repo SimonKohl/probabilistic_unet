@@ -2,7 +2,7 @@
 
 ```diff
 + **Update**
-+ An improved Model (the Hierarchical Probabilistic U-Net) + LIDC crops now available. See below.
++ An improved Model (the Hierarchical Probabilistic U-Net) + LIDC crops is now available. See below.
 ```
 
 Re-implementation of the model described in `A Probabilistic U-Net for Segmentation of Ambiguous Images' ([paper @ NeurIPS 2018](https://arxiv.org/abs/1806.05034)).
