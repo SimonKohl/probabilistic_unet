@@ -112,7 +112,7 @@ Please cite the original publication:
 ## License
 The code is published under the [Apache License Version 2.0](LICENSE).
 
-## Cross-link: The Hierarchical Probabilistic U-Net + LIDC crops
+## Update: The Hierarchical Probabilistic U-Net + LIDC crops
 
 We published an improved model, the Hierarchical Probabilistic U-Net at the Medical Imaging meets Neurips Workshop 2019.
 
