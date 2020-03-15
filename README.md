@@ -1,7 +1,7 @@
 # Probabilistic U-Net
 
 ```diff
-**Update**
++ **Update**
 + An improved Model (the Hierarchical Probabilistic U-Net) + LIDC crops now available. See below.
 ```
 
