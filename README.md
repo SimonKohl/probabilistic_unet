@@ -1,8 +1,9 @@
 # Probabilistic U-Net
 
 ```diff
-+ An improved Model (the Hierarchical Probabilistic U-Net) + our LIDC data is now available. See below :point_down:.
++ An improved Model (the Hierarchical Probabilistic U-Net) + our LIDC data is now available. See below.
 ```
+:point_down:
 
 Re-implementation of the model described in `A Probabilistic U-Net for Segmentation of Ambiguous Images' ([paper @ NeurIPS 2018](https://arxiv.org/abs/1806.05034)).
 
@@ -114,10 +115,11 @@ The code is published under the [Apache License Version 2.0](LICENSE).
 ## Cross-link: The Hierarchical Probabilistic U-Net + LIDC crops
 
 We published an improved model, the Hierarchical Probabilistic U-Net at the Medical Imaging meets Neurips Workshop 2019.
+
 The **paper** is available from arXiv under [A Hierarchical Probabilistic U-Net for Modeling Multi-Scale Ambiguities, May 2019](https://arxiv.org/abs/1905.13077).
 
 The **model code** is freely available from DeepMind's github repo, see here: [code link](https://github.com/deepmind/deepmind-research/tree/master/hierarchical_probabilistic_unet).
 
 The **LIDC data** can be downloaded as pngs, cropped to size 180 x 180 from Google Cloud Storage, see here: [data link](https://pantheon.corp.google.com/storage/browser/hpunet-data/lidc_crops).
 
-A **pretrained model** can be readily applied to the data using the following Google colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepmind/deepmind-research/blob/master/hierarchical_probabilistic_unet/HPU_Net.ipynb).
+A **pretrained model** can be readily applied to the data using the following Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepmind/deepmind-research/blob/master/hierarchical_probabilistic_unet/HPU_Net.ipynb).
