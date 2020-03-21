@@ -63,7 +63,7 @@ def preprocess(cf):
 			print('Processing {}'.format(city))
 			city_dir = os.path.join(image_dir, city)
 			image_names = os.listdir(city_dir)
-			image_specifiers = ['_'.join(img.split('_')[:3]) for img in image_names]
+			image_specifiers = [img.rsplit('_', maxsplit=1)[0] for img in image_names]
 
 			for img_spec in tqdm(image_specifiers):
 				for scale in cf.settings[set]['resolutions']:
